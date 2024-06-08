@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Top header*/
+
+
+.top-header {
+    display: flex;
+    background-color: #ffff;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+}
+
+.header-logo {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.top-header .header-logo span {
+    color: #ce1212;
+}
+
+.nevs {
+    display: flex;
+    list-style-type: none;
+}
+
+.nevs li {
+    margin: 0px 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #7f7f90;
+    cursor: pointer;
+
+}
+.nevs li:hover{
+    border-bottom:3px solid #ce1212;
+    padding-bottom: 6px;
+    color: #000000;
+}
+.top-header button{
+    background-color: #ce1212;
+    color: #ffffffff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.active{
+    border-bottom:3px solid #ce1212;
+    padding-bottom: 6px; 
+}
+/*Hero Styling*/
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eeeeee;
+    padding: 100px 0px;
+}
+
+.hero-right-section h1{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hero-right-section p{
+    color: #4f4f5a;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn-img{
+    display: flex; 
+    align-items: center;
+    
+
+}
+.hero-right-section .Book-table-btn{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 36px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff; 
+    border: none;
+    background: #ce1212;
+    box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
+}
+
+
+
+
+.Watch-video-btn{
+    align-items: center;
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    font-family:"Inter", sans-serif ;
+    font-weight: 600;
+    border: none;
+    display: flex;
+}
+
+.Watch-video-btn img{
+    margin-right: 10px;
+}
+
+.hero-img{
+    
+    max-width: 100%;
+    height: auto;
+}
